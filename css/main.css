@@ -1,0 +1,220 @@
+#navbarb{
+
+    background-color: rgba(1,33,94,255) !important;
+}
+
+#navbarSupportedContent{
+
+    justify-content: right;
+    align-items: space-between !important;
+    font-family:   sans-serif;
+    font-size: large;
+}
+
+#ribbon{
+
+    background-color: rgba(1,33,94,255);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(49,77,187,255) 25px, rgba(55,59,161,255) 40px);
+}
+
+#ribbon::after{
+
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+
+}
+
+#birthday{
+
+    background-color: rgba(49,77,187,255);
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 20px black;
+    font-family: sans-serif;
+
+}
+
+#birthday img{
+
+    position: relative;
+    margin-top: -30px;
+
+}
+
+.text-shadow{
+
+    text-shadow: 0 5px 5px rgba(1,33,94,255);
+}
+
+#seperator-ribbon{
+
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+
+}
+
+#separator-ribbon .content{
+
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: rgba(40, 10, 149, 0.928) !important;
+
+}
+
+.card-border{
+
+    border: transparent;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+
+}
+
+.card-border:hover{
+
+   transform: scale(1.05);
+
+}
+
+#content{
+
+    background-color: rgba(1,33,94,255) !important;
+    background:  linear-gradient(0deg, rgb(69, 1, 111)   0%, rgba(1,33,94,255) 95%) ;
+    background-repeat: repeat-x;
+    background-size: 75%;
+    margin-top: -20;
+
+}
+
+#submorado{
+
+    font-family: sans-serif;
+    color: rgb(80, 157, 216) ;
+    text-shadow: 0 3px 3px #1c0a68;
+
+}
+
+#titlep{
+
+    font-family: 'Arial Narrow';
+    color: rgb(243, 242, 248) 
+    !important;
+    text-shadow: 0 3px 3px #638fe6;
+
+}
+
+.color{
+
+    background-color: transparent !important;
+    border: transparent;
+
+}
+
+#textg{
+
+    font-family: sans-serif;
+    color: rgba(225, 225, 226, 0.899) ;
+    text-shadow: 0 3px 3px #5f4a84;
+    text-align: left;
+
+}
+
+.telesh{
+
+    border: transparent;
+    transition: all ease-out 0.2s;
+
+}
+
+.telesh:hover{
+
+    transform: scale(1.05);
+
+}
+
+#focus{
+
+    background-color: rgba(1,33,94,255) !important;
+    background:  linear-gradient(0deg, rgb(100, 20, 150)   0%, rgb(69, 1, 111) 55%) ;
+    background-repeat: repeat-x;
+    background-size: 75%;
+    margin-top: -20;
+
+}
+
+.color1{
+
+    background-color: transparent !important;
+    border: transparent;
+
+}
+
+#submorado1{
+
+    font-family: sans-serif;
+    color: rgb(42, 143, 221) ;
+    text-shadow: 0 3px 3px #210697;
+
+}
+
+#titlep1{
+
+    font-family: 'Arial Narrow';
+    color: rgb(243, 242, 248) 
+    !important;
+    text-shadow: 0 3px 3px #470f91;
+
+}
+
+#textg1{
+
+    font-family: sans-serif;
+    color: rgba(225, 225, 226, 0.899) ;
+    text-shadow: 0 3px 3px #5f4a84;
+    text-align: left;
+
+}
+
+.telesh1{
+
+    border: transparent;
+    border-radius: 5px;
+    box-shadow:  1px 5px 7px #1b0a686b;
+    transition: all ease-out 0.2s;
+
+}
+
+.telesh1:hover{
+
+    transform: scale(1.05);
+
+}
+
+#focus2{
+
+    background-color: rgba(1,33,94,255) !important;
+    background:  linear-gradient(0deg, rgb(105, 23, 213)   0%, rgb(100, 20, 150) 95%) ;
+    background-repeat: repeat-x;
+    background-size: 75%;
+    margin-top: -20;
+
+}
+
+#footer{
+
+    background-color:  rgb(105, 23, 213);
+    background-size: 100%;
+
+}
